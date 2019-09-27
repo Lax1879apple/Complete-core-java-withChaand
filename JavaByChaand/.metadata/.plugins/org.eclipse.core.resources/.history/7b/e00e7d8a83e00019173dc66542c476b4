@@ -1,0 +1,7 @@
+package inheritanceInJava.vehicles;
+
+public class Bus {
+	private String passengers;
+	private String steering;
+	public boolean fare;
+}

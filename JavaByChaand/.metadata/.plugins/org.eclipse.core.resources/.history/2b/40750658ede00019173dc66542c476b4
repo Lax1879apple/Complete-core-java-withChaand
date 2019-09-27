@@ -1,0 +1,7 @@
+package org.animal.reptiles.parent;
+
+public class Reptiles {
+	private String skinType;
+	private boolean backbone;
+	private String eggs;
+}

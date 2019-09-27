@@ -1,0 +1,21 @@
+
+public class SwitchStatements {
+
+	public static void main(String[] args) {
+		int x = 4;
+		
+		switch (x) {
+		case 1: 
+			System.out.println("X is greater than 8");
+		case 2: 
+			System.out.println("X is equal to 8");
+		case 3: 
+			System.out.println("X is smaller than 8");
+		default: 
+			System.out.println("X is greater than 8");
+			
+		}
+
+	}
+
+}

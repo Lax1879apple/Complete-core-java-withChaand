@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="JavaMethodsOnPrimeNumber.PrimeNumberCalculatar"/>
+<fullyQualifiedTypeName name="java.inheritance.vehicles.Bus"/>
+<fullyQualifiedTypeName name="inheritanceInJava.vehicles.Bus"/>
+<fullyQualifiedTypeName name="org.inheritanceInJava.vehicle.parent.VehicleParent"/>
+<fullyQualifiedTypeName name="org.inheritanceInJava.vehicle.parent.Vehicle"/>
+<fullyQualifiedTypeName name="org.inheritanceInJava.vehicles.Bike"/>
+<fullyQualifiedTypeName name="org.inheritanceInJava.vehicles.Truck"/>
+<fullyQualifiedTypeName name="org.animal.parent.Animals"/>
+<fullyQualifiedTypeName name="org.animal.reptiles.parent.Reptiles"/>
+<fullyQualifiedTypeName name="org.animal.reptiles.parent.corcodile.Crocodile"/>
+<fullyQualifiedTypeName name="org.animal.fish.parent.Fish"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+</qualifiedTypeNameHistroy>

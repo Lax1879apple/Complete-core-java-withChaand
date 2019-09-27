@@ -1,0 +1,50 @@
+package org.animal.parent;
+
+public class Animals {
+	private int height;
+	private double weight;
+	private String animalType;
+	private String bloodType;
+	
+	public Animals() {
+		this.height = 5;
+		this.weight = 30d;
+		this.animalType = "amphibians";
+		this.bloodType = "warmBlooded";
+	}
+	
+	public Animals(int height, double weight, String animalType, String bloodType) {
+		this.height = height;
+		this.weight = weight;
+		this.animalType = animalType;
+		this.bloodType = bloodType;
+	}
+
+	public int getHeight() {
+		return height;
+	}
+
+	public double getWeight() {
+		return weight;
+	}
+
+	public String getAnimalType() {
+		return animalType;
+	}
+
+	public String getBloodType() {
+		return bloodType;
+	}
+
+	@Override
+	public String toString() {
+		return "Animals [height=" + height + ", weight=" + weight + ", animalType=" + animalType + ", bloodType="
+				+ bloodType + ", getHeight()=" + getHeight() + ", getWeight()=" + getWeight() + ", getAnimalType()="
+				+ getAnimalType() + ", getBloodType()=" + getBloodType() + "]";
+	}
+	
+	public void showInfo() {
+		System.out.println("Showing animal info");
+	}
+}
+

@@ -1,0 +1,30 @@
+package JavaMethods;
+
+public class Method1 {
+
+	public static void main(String[] args) {
+		
+		loop1(1);
+		System.out.println("********");
+		loop2();
+		
+	}
+	
+	public static void loop1(int firstNum ){
+//		int x = 1;
+		while(firstNum <= 10) {
+			System.out.println(firstNum);
+			firstNum++;
+		}
+		
+	}
+	
+	public static void loop2() {
+		int j = 20;
+		while(j <= 40) {
+			System.out.println(j);
+			j++;
+		}
+	}
+
+}

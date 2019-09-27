@@ -1,0 +1,6 @@
+package org.animal.fish.parent;
+
+public class Fish {
+	private String habitate;
+	private boolean gills;
+}

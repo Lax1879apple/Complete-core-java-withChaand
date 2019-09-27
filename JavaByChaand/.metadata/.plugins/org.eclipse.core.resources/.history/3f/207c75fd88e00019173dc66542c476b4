@@ -1,0 +1,5 @@
+package inheritanceInJava.vehicles;
+
+public class MotorCycle {
+
+}

@@ -1,0 +1,25 @@
+
+public class SwitchStatements {
+
+	public static void main(String[] args) {
+		int x = 9;
+		
+		switch (x) {
+		case 1: 
+			System.out.println("X is equal to 1");
+				break;
+		case 2: 
+			System.out.println("X is bigger than to 1");
+				break;
+		case 3: 
+			System.out.println("X is smaller than 8");
+				break;
+		default: 
+			System.out.println("X is other than 1,2, 3");
+				break;
+			
+		}
+
+	}
+
+}

@@ -1,0 +1,7 @@
+package org.inheritanceInJava.vehicles;
+
+import org.inheritanceInJava.vehicle.parent.VehicleParent;
+
+public class MotorCycle extends VehicleParent {
+  public String handle;
+}

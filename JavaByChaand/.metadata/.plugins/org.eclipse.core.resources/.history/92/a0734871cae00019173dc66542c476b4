@@ -1,0 +1,23 @@
+package org.inheritanceInJava;
+
+import org.inheritanceInJava.vehicles.Bike;
+import org.inheritanceInJava.vehicles.Bus;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+//		Bike bike = new Bike();
+//		System.out.println(bike.getFuelTank());
+//		System.out.println(bike.getHandle());
+		
+		Bike bike = new Bike("long", true, "petrol", "focusedLED", 4, 7, 45 );
+		System.out.println("The handle of the bike is " + bike.getHandle());
+		System.out.println("The engine of the bike is " + bike.getEngine());
+		System.out.println("The fuel tank capacity of the bike is " + bike.getFuelTank());
+		System.out.println("The lights of the bike is" + bike.getLights());
+		System.out.println("The sets of the bike is " + bike.getSeats());
+		System.out.println("The number of wheels in bike is " +bike.getWheels());
+		System.out.println("The capacity of the tank is " +bike.getFuelTank());
+	}
+
+}

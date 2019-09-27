@@ -1,0 +1,9 @@
+package org.animal.reptiles.parent;
+
+import org.animal.parent.Animals;
+
+public class Reptiles extends Animals {
+	private String skinType;
+	private boolean backbone;
+	public String eggs;
+}

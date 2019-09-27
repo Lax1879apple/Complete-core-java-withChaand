@@ -1,0 +1,14 @@
+package org.inheritanceInJava;
+
+import inheritanceInJava.vehicles.Bus;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		Bus bus = new Bus();
+		bus.
+		System.out.println("No passengers were onboarded");
+
+	}
+
+}

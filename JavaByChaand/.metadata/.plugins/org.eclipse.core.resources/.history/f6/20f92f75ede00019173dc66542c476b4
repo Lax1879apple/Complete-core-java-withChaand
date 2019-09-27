@@ -1,0 +1,6 @@
+package org.animal.birds.parent;
+
+public class Birds {
+	private boolean hasFeathers;
+	private boolean canFly;
+}

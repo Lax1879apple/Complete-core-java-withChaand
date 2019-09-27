@@ -1,0 +1,28 @@
+package org.animal.reptiles.parent.corcodile;
+
+import org.animal.reptiles.parent.Reptiles;
+
+public class Crocodile extends Reptiles {
+	private String egg;
+
+	public Crocodile() {
+		super();
+		this.egg = "hard-shelled eggs";
+	}
+
+	public Crocodile(String eggs) {
+		super();
+		this.egg = eggs;
+	}
+
+	public String getEgg() {
+		return egg;
+	}
+	
+	public void showInfo() {
+		System.out.println("Showing crocodile info");
+		System.out.println(toString());
+	}
+	
+	
+}

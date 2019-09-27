@@ -1,0 +1,55 @@
+package org.inheritanceInJava.vehicles;
+
+import org.inheritanceInJava.vehicle.parent.VehicleParent;
+
+public class Bus extends VehicleParent {
+	private String passengers;
+	private String steering;
+	private boolean fare;
+	
+	public Bus() {
+		passengers = passengers;
+		passengers = passengers;
+		fare = fare;
+	
+	}
+	
+	public Bus(String passengers, String steering, boolean fare) {
+		super();
+		this.passengers = passengers;
+		this.steering = steering;
+		this.fare = fare;
+	}
+
+
+	public String getPassengers() {
+		return passengers;
+	}
+
+	public void setPassengers(String passengers) {
+		this.passengers = passengers;
+	}
+
+	public String getSteering() {
+		return steering;
+	}
+
+	public void setSteering(String steering) {
+		this.steering = steering;
+	}
+
+	public boolean isFare() {
+		return fare;
+	}
+
+	public void setFare(boolean fare) {
+		this.fare = fare;
+	}
+	
+	public void running() {
+		
+		
+	}
+	
+	
+}

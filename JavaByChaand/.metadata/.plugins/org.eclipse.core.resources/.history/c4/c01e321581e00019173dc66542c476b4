@@ -1,0 +1,13 @@
+package java.inheritance;
+
+import java.inheritance.vehicles.Bus;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		Bus bus = new Bus();
+		bus.fare = true;
+
+	}
+
+}

@@ -1,0 +1,18 @@
+package org.inheritanceInJava;
+
+import org.inheritanceInJava.vehicles.Bike;
+import org.inheritanceInJava.vehicles.Bus;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+//		Bike bike = new Bike();
+//		System.out.println(bike.getFuelTank());
+//		System.out.println(bike.getHandle());
+		
+		Bike bike = new Bike("long", true, "petrol", "focusedLED", 4, 2, 10 );
+		System.out.println(bike);
+		
+	}
+
+}

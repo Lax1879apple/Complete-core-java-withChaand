@@ -1,0 +1,41 @@
+package inheritanceInJava.vehicles;
+
+public class Bus {
+	private String passengers;
+	private String steering;
+	private boolean fare;
+	
+	public Bus() {
+		passengers = few;
+		passengers = passengers;
+		fare = fare;
+	
+	}
+
+	public String getPassengers() {
+		return passengers;
+	}
+
+	public void setPassengers(String passengers) {
+		this.passengers = passengers;
+	}
+
+	public String getSteering() {
+		return steering;
+	}
+
+	public void setSteering(String steering) {
+		this.steering = steering;
+	}
+
+	public boolean isFare() {
+		return fare;
+	}
+
+	public void setFare(boolean fare) {
+		this.fare = fare;
+	}
+	
+	
+	
+}

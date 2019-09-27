@@ -1,0 +1,14 @@
+package inheritanceInJava;
+
+import inheritanceInJava.vehicles.Bus;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		Bus bus = new Bus();
+		bus.getPassengers();
+		System.out.println(bus.getPassengers());
+
+	}
+
+}

@@ -1,0 +1,10 @@
+
+public class PrimitiveData {
+
+	public static void main(String[] args) {
+		int intgr = 10; // only accepts whole numbers
+		System.out.println(intgr);
+	}
+	
+
+}

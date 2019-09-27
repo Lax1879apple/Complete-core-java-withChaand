@@ -1,0 +1,13 @@
+package org.animal.parent.main;
+
+import org.animal.reptiles.parent.Reptiles;
+
+public class MainApp {
+
+	public static void main(String[] args) {
+		Reptiles reptile = new Reptiles();
+		System.out.println(reptile.getClass());
+
+	}
+
+}

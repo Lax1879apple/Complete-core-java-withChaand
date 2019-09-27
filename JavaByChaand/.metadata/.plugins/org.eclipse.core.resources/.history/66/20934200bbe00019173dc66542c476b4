@@ -1,0 +1,9 @@
+package org.inheritanceInJava.vehicle.parent;
+
+public class VehicleParent {
+	private boolean driver;
+	private String engine;
+	private String lights;
+	private String horn;
+
+}

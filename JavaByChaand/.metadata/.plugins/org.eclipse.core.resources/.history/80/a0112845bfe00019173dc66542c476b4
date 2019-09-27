@@ -1,0 +1,18 @@
+package org.inheritanceInJava.vehicles;
+
+import org.inheritanceInJava.vehicle.parent.Vehicle;
+
+public class Bike extends Vehicle {
+  private String handle;
+  
+  
+  
+  
+  
+  
+  
+
+}
+  
+  
+

@@ -1,0 +1,14 @@
+
+public class PrimitiveData {
+
+	public static void main(String[] args) {
+		int intgr = 10; // only accepts whole numbers
+		int maxValue = 2147483647;
+		int minValue = -2147483648;
+		System.out.println(intgr);
+		System.out.println(maxValue);
+		System.out.println(minValue);
+	}
+	
+
+}

@@ -1,0 +1,8 @@
+package org.animal.fish.parent;
+
+import org.animal.parent.Animals;
+
+public class Fish extends Animals{
+	private String habitate;
+	private boolean gills;
+}
